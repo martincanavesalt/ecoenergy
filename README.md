@@ -32,3 +32,4 @@ src/
 1. Subí el proyecto a un repo en GitHub (rama `main`).
 2. En el repo: **Settings → Pages → Source: GitHub Actions**.
 3. Cada `push` a `main` publica el sitio automáticamente (ver `.github/workflows/deploy.yml`).
+"# ecoenergy" 
