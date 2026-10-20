@@ -1,8 +1,11 @@
 import { useState } from 'react'
 import { site, waLink } from '../data/site'
+import logoIcono from '../assets/logo-icono.png'
+import logoTexto from '../assets/logo-texto.png'
 
 const links = [
   { href: '#servicios', label: 'Servicios' },
+  { href: '#trabajos', label: 'Trabajos' },
   { href: '#como-trabajamos', label: 'Cómo trabajamos' },
   { href: '#calculadora', label: 'Calculadora' },
   { href: '#preguntas', label: 'Preguntas' },
@@ -15,9 +18,9 @@ export default function Header() {
   return (
     <header className="header">
       <div className="container header__inner">
-        <a href="#inicio" className="logo">
-          <span className="logo__sol" aria-hidden="true">☀</span>
-          {site.nombre}
+        <a href="#inicio" className="logo" aria-label={`${site.nombre} - inicio`}>
+          <img src={logoIcono} alt="" className="logo__icono" />
+          <img src={logoTexto} alt={`${site.nombre} - Energías Renovables`} className="logo__texto" />
         </a>
 
         <button

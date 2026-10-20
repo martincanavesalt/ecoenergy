@@ -9,6 +9,9 @@ export const site = {
   calculadora: 'https://martincanavesalt.github.io/calculosolar/',
 }
 
+// IDs de los reels de Instagram (la parte después de /reel/ en el link)
+export const reels = ['Dem1I4gq_1E', 'Dc7B_d9Rz7G', 'Db80ULTqAAD']
+
 export const waLink = (mensaje = 'Hola Ecoenergy! Quiero pedir un presupuesto.') =>
   `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(mensaje)}`
 

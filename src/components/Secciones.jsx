@@ -42,7 +42,7 @@ export function Servicios() {
 
 export function ComoTrabajamos() {
   return (
-    <section id="como-trabajamos" className="seccion">
+    <section id="como-trabajamos" className="seccion seccion--alt">
       <div className="container">
         <h2>Cómo trabajamos</h2>
         <ol className="pasos">

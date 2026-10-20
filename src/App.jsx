@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Carrusel from './components/Carrusel'
 import {
   Beneficios,
   Servicios,
@@ -19,6 +20,7 @@ export default function App() {
         <Hero />
         <Beneficios />
         <Servicios />
+        <Carrusel />
         <ComoTrabajamos />
         <Calculadora />
         <Preguntas />
